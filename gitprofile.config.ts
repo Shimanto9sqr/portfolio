@@ -23,33 +23,33 @@ const CONFIG = {
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
+      // manual: {
+      //   // Properties for manually specifying projects
+      //   projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+      // },
     },
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Offline Password Vault',
-          description:
-            'A offline encrypted password vault with feature like strong password generator',
-          imageUrl:
-            'https://drive.google.com/file/d/1Vm1qzMxIiK71E9MVf6kWg2jAGiWWB6Nk/view?usp=drive_link',
-          link: '',
-        },
-        {
-          title: 'InfoRuet',
-          description:
-            'A information portal for RUET where Faculty info, notices and university info centralized',
-          imageUrl:
-            '',
-          link: '',
-        },
-      ],
-    },
+    // external: {
+    //   header: 'My Projects',
+    //   // To hide the `External Projects` section, keep it empty.
+    //   projects: [
+    //     {
+    //       title: 'Offline Password Vault',
+    //       description:
+    //         'A offline encrypted password vault with feature like strong password generator',
+    //       imageUrl:
+    //         'https://drive.google.com/file/d/1Vm1qzMxIiK71E9MVf6kWg2jAGiWWB6Nk/view?usp=drive_link',
+    //       link: '',
+    //     },
+    //     {
+    //       title: 'InfoRuet',
+    //       description:
+    //         'A information portal for RUET where Faculty info, notices and university info centralized',
+    //       imageUrl:
+    //         '',
+    //       link: '',
+    //     },
+    //   ],
+    // },
   },
   seo: { title: 'Portfolio of Shimanto', description: '', imageURL: '' },
   social: {
